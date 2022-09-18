@@ -1,0 +1,45 @@
+git init - Criar o repositorio
+Versao servidor - Remote Repository
+Versao Local - Local Repository, Staging Area, Working Diretory
+
+echo > "nome arquivo.md"- cria um novo arquivo
+
+git add * - adiconar o arquivo a um grupo de stage
+
+git commit -m - salvar os arquivos, manda os arquivos da Stanging Area 
+para o Local Repository
+
+
+<<<Versao Local>>>>
+
+<<<Pratica dos Codigos>>>
+git status - verifica comits e a Working tree (arvore de trabalho)
+mkdir receitas - ( criando uma pasta de receitas)
+mv strogonoff.md ./receitas/ - (movendo para pasta receitas)
+ls - (lista arquivos)
+git add strogonoff.md receitas/ (Adicionando os arquivos para stage)
+git commit -m "criando pasta receitas, movendo arquivo para receitas" 
+(salvando a pasta e o arquivo)
+
+<<Novo ciclo>>
+echo > README.md
+git add * (asterico ou ponto pega tudo que foi modificado e passa para stage)
+git commit -m "adicionando index" (salvando o arquivo)
+
+<<enviando para Remote Repository>>
+git remote add origin https://"endereço"
+git remote -v (listando)
+git push origin master (enviando arquivos)
+
+<<<Fechamento>>>
+
+>> configuraçao do git <<
+git config --list
+git config --global --unset user.email (redefinindo)
+git config --global user.email "email@email.com"
+>>>fechamento<<<<
+
+
+
+
+
