@@ -1,13 +1,9 @@
 # Iniciando Curso Pottencial .Net Developer
 
-## .NET - não é uma linguagem de programaçao mas sim uma plataforma de desenvolvimento e 
-	dentro dela usamos as linguaguens de programaçao como C# e VB. 
+## .NET - não é uma linguagem de programaçao mas sim uma plataforma de desenvolvimento e dentro dela usamos as linguaguens de programaçao como C# e VB. 
 
-### Dentro da Plataforma é possivel criar aplicaçoes para Desktop, Web, Cloud, Mobile, Gaming
-	IoT e AI. A plataforma prepara o ambiente para que o desenvolvedor possa se preocupar
-	mais com o codigo.
+### Dentro da Plataforma é possivel criar aplicaçoes para Desktop, Web, Cloud, Mobile, Gaming IoT e AI. A plataforma prepara o ambiente para que o desenvolvedor possa se preocupar mais com o codigo.
 
-### Ferramentas que podemos usar são: Visual Studio, Visual Studio Code e CLI (Commando Line
-	Interface) - Infraestrutura : Runtime Components, Compilers e Languages.
+### Ferramentas que podemos usar são: Visual Studio, Visual Studio Code e CLI (Commando Line Interface) - Infraestrutura : Runtime Components, Compilers e Languages.
 
 ### Link: https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet
