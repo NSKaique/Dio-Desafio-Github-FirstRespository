@@ -1,9 +1,25 @@
 # Iniciando Curso Pottencial .Net Developer
 
 ## .NET - não é uma linguagem de programaçao mas sim uma plataforma de desenvolvimento e dentro dela usamos as linguaguens de programaçao como C# e VB. 
-
 ### Dentro da Plataforma é possivel criar aplicaçoes para Desktop, Web, Cloud, Mobile, Gaming IoT e AI. A plataforma prepara o ambiente para que o desenvolvedor possa se preocupar mais com o codigo.
-
 ### Ferramentas que podemos usar são: Visual Studio, Visual Studio Code e CLI (Commando Line Interface) - Infraestrutura : Runtime Components, Compilers e Languages.
 
 ### Link: https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet
+
+## C# foi revolucionario para sua epoca de lançamento por ser multi-plataforma e tinha como objetivo competir com o Java que era a linguagem mais ultilizada.
+## Com o objetivo de facilitar o desenvolvimento de aplicaçoes desktop e web foi criada .NET, não nasceu sendo multi-plataforma. Lançado em 2002
+## Historia : https://time.graphics/pt/line/291016
+## .NET 5 é a continuaçao do .NET Core 3.1, so que a Microsoft abandonou o termo "Core" que dava a noçao de multiplataforma.
+
+# .NET framework (1.0 ate a 4.8) é uma versao que so funciona no windows e .NET (Core 1.0 ate o Core 3.1 e do 5 para cima) é a versao atual que é multiplataforma.
+# Vantagens do multi-plataforma é facilidade de desenvoilvimento para todas as plataformas, funcionamento da aplicaçao em todas sem precisar reescrever codigo em cada uma delas e o custo é mais barato.
+# Compilador .NET - Faz o Trabalho de traduzir o que nos entendemos para o que o computador entende.
+# Liguagem de alto nivel é a linguagem que escrevemos e entendemos nosso codigo fonte
+# Linguagem de baixo nivel é a linguagem que a maquina entende, conceito dos binarios.
+# Em cada fase de um compilador existe uma analise de erro para verificar se o seu codigo esta de acordo com a linguagem, a sintaxe e outros fatores para que seja traduzido.
+
+Trajeto - (Compile Time) -> {Linguagem de alto nivel -> C# Compilador -> {IL Code (Codigo de Linguagem Intermediaria)} -> JIT compilador -> Codigo Nativo} <- (Runtime)
+
+Transpilador é a conversao/traduçao de uma linguagem ou implementaçao para outra. Existe a permanecia da linguagem de alto nivel. Ex: TypeScript para JavaScript.
+Linguagem compilada: sao aaquelas que o codigo fonte é traduzido par ao codigo de maquina. Ex: C#, Java.
+Linguagem interpretada: sao linguagens que so fazem a leitura e interpretaçao diretamente do codigo fonte. Ex: Javascript, PHP.
