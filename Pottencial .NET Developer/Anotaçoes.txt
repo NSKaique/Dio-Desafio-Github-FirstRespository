@@ -23,3 +23,33 @@ Trajeto - (Compile Time) -> {Linguagem de alto nivel -> C# Compilador -> {IL Cod
 Transpilador é a conversao/traduçao de uma linguagem ou implementaçao para outra. Existe a permanecia da linguagem de alto nivel. Ex: TypeScript para JavaScript.
 Linguagem compilada: sao aaquelas que o codigo fonte é traduzido par ao codigo de maquina. Ex: C#, Java.
 Linguagem interpretada: sao linguagens que so fazem a leitura e interpretaçao diretamente do codigo fonte. Ex: Javascript, PHP.
+
+>> Visual Studio Code <<
+
+Terminal -> dotnet new console -> para criar seu projeto.
+.csproj- guarda os meta-dados do seu programa. Ex: o Tipo de Saida como o EXE. Cuidado com as mudanças feitas nele porque podem quebrar seu projeto.
+.cs é o seu programa.
+Pasta obj - Contem arquivos de Debug / Compilação.
+Pasta bin - Contem os arquivos binários.
+
+Console.WriteLine ($"Para Mostrar o seus {variavel} texto")
+$ é ultilizado para iniciar uma String. 
+{} serve para colocar e mostrar o valor da sua variavel no texto.
+
+O espaço entre palavras e pontos nao modifica nada na codificação.Só nao podemos ter espaços nas propriedades e dentro dos nomes
+
+sintaxe - conjunto de regras para seu codigo ser compilado
+convenções - maneiras de padronizar o codigo para a melhor leitura de outros programadores
+
+Cases - Padrao de escrita - Ulitlizar camelCase (variaveis) (Primeira letra da palavra em minusculo e primeira letra da segunda palavra em maiusculo) ou PascalCase "mais ultilizada" (Propriedades, Nome de classes e etc) (inicio de cada uma letra em maiuscula)
+
+Classe -
+Ex: Pessoa p = new Pessoa();
+namespace- é o diretorio de onde ta a estrutura da classe.
+using "namespace" - para ultilizar a classe no programa principal.
+Evitar Abreviar.
+----
+
+Variaveis ->> "Tipo" "nome" = "valor";
+
+tipos de variaveis ->> Int-String-Bool-Object-Decimal(valores monetarios)-Double(ToString("0.00") ficar com duas casas decimais)- DateTime (para datas)
