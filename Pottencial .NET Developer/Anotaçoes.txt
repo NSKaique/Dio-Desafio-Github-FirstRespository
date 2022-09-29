@@ -41,15 +41,26 @@ O espaço entre palavras e pontos nao modifica nada na codificação.Só nao pod
 sintaxe - conjunto de regras para seu codigo ser compilado
 convenções - maneiras de padronizar o codigo para a melhor leitura de outros programadores
 
-Cases - Padrao de escrita - Ulitlizar camelCase (variaveis) (Primeira letra da palavra em minusculo e primeira letra da segunda palavra em maiusculo) ou PascalCase "mais ultilizada" (Propriedades, Nome de classes e etc) (inicio de cada uma letra em maiuscula)
+>>Cases<< 
+Padrao de escrita - Ulitlizar camelCase (variaveis) (Primeira letra da palavra em minusculo e primeira letra da segunda palavra em maiusculo) ou PascalCase "mais ultilizada" (Propriedades, Nome de classes e etc) (inicio de cada uma letra em maiuscula)
 
-Classe -
+>>Classe<<
 Ex: Pessoa p = new Pessoa();
 namespace- é o diretorio de onde ta a estrutura da classe.
 using "namespace" - para ultilizar a classe no programa principal.
 Evitar Abreviar.
-----
 
-Variaveis ->> "Tipo" "nome" = "valor";
-
+>>Variaveis<<
+"Tipo" "nome" = "valor";
 tipos de variaveis ->> Int-String-Bool-Object-Decimal(valores monetarios)-Double(ToString("0.00") ficar com duas casas decimais)- DateTime (para datas)
+
+>>Operadores<<
+Operador de Atribuição -> "="
+Combinação de operadores -> " C += 5" == "C = C + 5"
+Cast - Casting -> Conversao de variaveis
+int a = Convert.ToInt32("5")
+int a = int.Parse("5")
+Diferença de Parse e Convert (Mais convencional) -> Em situaçoes em que o valor vier nulo usaremos Convert pois ele rodara o seu programa e tratara o valor como 0, ja no Parse teremos o erro.
+Convertendo para String -> .ToString();
+Erro de Exceçao para todo o programa.
+Para converter de maneira segura usamos o Convert.Tryparse("tenta essa", out "se nao foi o primeiro é essa").
