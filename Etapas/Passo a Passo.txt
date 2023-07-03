@@ -1,5 +1,7 @@
 Primeiro clone o repositorio desejado para a maquina - *git clone "URL"*
 
+git pull -  Para atualizar seu projeto para a ultima versão
+
 Segundo.0 - enviar codigo fora de branch master ou main - *git checkout -b "nome da branch de alteração"*
 
 Segundo - Adicione os arquivos novos - *git add .*
@@ -7,5 +9,5 @@ Segundo - Adicione os arquivos novos - *git add .*
 Terceiro - Subir os Arquivos -  *git commit -m "texto explicativo"*
 
 
-
 Quarto - Enviar os arquivos - *git push* ou *git pull request* (Projetos de Empresas com Gerentes)
+
