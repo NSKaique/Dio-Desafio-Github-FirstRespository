@@ -64,3 +64,5 @@ Diferença de Parse e Convert (Mais convencional) -> Em situaçoes em que o valo
 Convertendo para String -> .ToString();
 Erro de Exceçao para todo o programa.
 Para converter de maneira segura usamos o Convert.Tryparse("tenta essa", out "se nao foi o primeiro é essa").
+Operador condicional -> "if/else" "switch case"
+Leitor de linha -> Console.ReadLine();
